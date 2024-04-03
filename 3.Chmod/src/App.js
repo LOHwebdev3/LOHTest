@@ -10,7 +10,7 @@ export default function App() {
             <Chmod permission={"-r--r--r--"} answer={'444'} /> {/*444*/}
             <Chmod permission={"---x--x--x"} answer={'111'} /> {/*111*/}
             <Chmod permission={"-rw-------"} answer={'600'} /> {/*600*/}
-            <Chmod permission={"-rw-rw-r--"} answer={'644'} /> {/*644*/}
+            <Chmod permission={"-rw-rw-r--"} answer={'664'} /> {/*664*/}
         </div>
     );
 }
